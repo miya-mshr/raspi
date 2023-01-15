@@ -7,7 +7,7 @@ import sensor_graph
 jsonfile = 'sensor.json'
 pngfile = 'sensor.png'
 app = Flask(__name__) # Flaskを生成
-server = app.server
+
 # サーバーのルートにアクセスがあった時 --- (※2)
 @app.route('/')
 def index():
