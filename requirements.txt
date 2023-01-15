@@ -2,3 +2,6 @@ dash
 dash_html_components
 gunicorn
 Flask
+matplotlib
+japanize_matplotlib
+
