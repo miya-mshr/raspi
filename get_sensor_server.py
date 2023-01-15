@@ -45,5 +45,5 @@ def save():
     return 'True'
 
 if __name__ == '__main__': # サーバー起動 --- (※8)
-    app.run('0.0.0.0', 8889, debug=True)
+    app.run(debug=True)
 
